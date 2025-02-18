@@ -9,7 +9,10 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "web": {
       "bundler": "metro",
@@ -27,8 +30,12 @@
         "origin": false
       },
       "eas": {
-        "projectId": "7be5647c-c2a6-4adc-bdae-bb5d6bd1ddf7"
+        "projectId": "de6cdb5e-e9e9-4794-bfe3-054919749acb"
       }
+    },
+    "owner": "sunny40",
+    "android": {
+      "package": "com.sunny40.boltexponativewind"
     }
   }
 }
